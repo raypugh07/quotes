@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5d63b33-8c5f-437a-a209-128760e5812e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/OpenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/QuotesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/RolesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/handlers/RestExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java" afterDir="false" />
-    </list>
+    <list default="true" id="e5d63b33-8c5f-437a-a209-128760e5812e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/quote/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +50,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="223">
               <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/SeedData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="56" lean-forward="true" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -121,6 +132,7 @@
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/QuotesController.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/RolesController.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/SeedData.java" />
       </list>
     </option>
   </component>
@@ -193,16 +205,6 @@
               <item name="quote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quote" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-              <item name="quote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -264,18 +266,18 @@
       <option name="presentableId" value="Default" />
       <updated>1578280551377</updated>
       <workItem from="1578280552873" duration="1983000" />
-      <workItem from="1578419457880" duration="4171000" />
+      <workItem from="1578419457880" duration="4425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6154000" />
+    <option name="totallyTimeSpent" value="6408000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
+    <frame x="-298" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26818183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -286,7 +288,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21451788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,11 +618,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="223">
           <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/SeedData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="56" lean-forward="true" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
