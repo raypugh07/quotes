@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5d63b33-8c5f-437a-a209-128760e5812e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/config/SimpleCorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/repository/QuoteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/QuoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/QuoteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/OpenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/QuotesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/RolesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ValidationError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/handlers/RestExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quote/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quote/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quote/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +25,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/RoleService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/OpenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="714">
+              <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/QuotesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-670">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/RolesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-480">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +91,6 @@
       <list>
         <option value="$PROJECT_DIR$/quote/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/Auditable.java" />
-        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/Role.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/User.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/UserRoles.java" />
@@ -77,6 +108,19 @@
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/QuoteService.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/QuoteServiceImpl.java" />
         <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/RoleService.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/UserAuditing.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/UserService.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ResourceNotFoundException.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ValidationError.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/handlers/RestExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/LogoutController.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/OpenController.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/QuotesController.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/RolesController.java" />
+        <option value="$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java" />
       </list>
     </option>
   </component>
@@ -87,10 +131,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1380" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-298" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,7 +195,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="quote" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="quotes" type="b2602c69:ProjectViewProjectNode" />
@@ -170,6 +215,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -215,18 +264,18 @@
       <option name="presentableId" value="Default" />
       <updated>1578280551377</updated>
       <workItem from="1578280552873" duration="1983000" />
-      <workItem from="1578419457880" duration="2643000" />
+      <workItem from="1578419457880" duration="4171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4626000" />
+    <option name="totallyTimeSpent" value="6154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26818183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -234,9 +283,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,16 +314,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/QuoteApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/Auditable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -318,13 +358,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -448,6 +481,143 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/UserAuditing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/QuoteApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ValidationError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/exceptions/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/handlers/RestExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/models/ErrorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/LogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/OpenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/QuotesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-670">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/RolesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/src/main/java/com/quote/quote/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
